@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color:  rgb(154, 234, 234);
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    background-color: aquamarine;
+    flex-grow: 1;
+    min-height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    min-height: 100%;
+}
+
+.menu {
+    width: 15%;
+    background-color: rgb(84, 126, 189);
+    padding: 40px 20px 0px;
+    font-family: Tahoma;
+}
+
+.menu-header {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* espaçamento entre imagem e texto */
+    margin-bottom: 20px;
+}
+.menu-header img {
+    width: 30px;
+    height: auto;
+}
+.menu-header h2 {
+    margin: 0;
+    font-size: 1.4em;
+}
+
+.menu ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: rgb(255, 192, 5); /* ou qualquer cor de destaque que preferir */
+}
+
+.menu h2 {
+    color: white;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* espaço entre o logo e o texto */
+    padding: 10px;
+}
+
+.logo-img {
+    height: 75px; /* ajuste conforme o tamanho desejado */
+}
+
+.header {
+    background-color: #0cc0df;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    display: block;
+    max-width: 100%;
+}
+
+.content {
+    background-color: white;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.footer {
+    background-color: rgb(27, 88, 180);
+    min-height: 90px;
+    color: white;
+}
+
+li {
+    padding-bottom: 15px;
+}
+
+fieldset{
+    width: 75%;
+    margin: 15px 0;
+    border-radius: 10px;
+    font-size: 20px;
+}
+button {
+padding: 7px 15px;
+margin-right: 5px;
+background-color: #007BFF; /* Azul padrão Bootstrap */
+color: white;
+border: none;
+border-radius: 5px;
+font-size: 16px;
+font-family:  Trebuchet MS, Tahoma;
+cursor: pointer;
+transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color: #0056b3; /* Tom mais escuro ao passar o mouse */
+}
+
+table thead th {
+    background-color: #252525;
+    color: white;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: #e4e4e4;
+}
